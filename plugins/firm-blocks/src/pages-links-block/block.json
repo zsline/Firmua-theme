@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "firm-blocks/pages-links-block",
+	"version": "1.0.0",
+	"title": "Pages Links Block",
+	"category": "firm-blocks",
+	"icon": "screenoptions",
+	"description": "Block for added pages links",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"items": {
+		"type": "array",
+		"default": []
+		}
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+	"editorStyle": "file:./index.css"
+}

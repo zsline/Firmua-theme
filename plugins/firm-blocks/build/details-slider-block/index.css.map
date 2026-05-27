@@ -1,0 +1,1 @@
+{"version":3,"file":"details-slider-block/index.css","mappings":";;;AACC;EACC;EACA;AAAF,C","sources":["webpack://firm-blocks/./src/details-slider-block/editor.scss"],"sourcesContent":[".wp-block-firm-blocks-details-slider-block {\n\t.price {\n\t\tdisplay: flex;\n\t\tgap: 8px;\n\t}\n}\n"],"names":[],"sourceRoot":""}

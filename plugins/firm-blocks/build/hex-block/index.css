@@ -1,0 +1,29 @@
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/hex-block/editor.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+.wp-block-firm-blocks-hex-block .item-directions-block__wrapper {
+  min-height: 610px;
+}
+.wp-block-firm-blocks-hex-block .item-directions-block__img {
+  position: relative;
+  top: 160px !important;
+  left: 120px !important;
+  right: auto !important;
+  height: 200px;
+  width: 200px;
+}
+.wp-block-firm-blocks-hex-block .item-directions-block__hex-wrapper {
+  width: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  aspect-ratio: auto !important;
+  background: #ffffff;
+  clip-path: none;
+  padding: 0px;
+  position: relative;
+  top: 0 !important;
+  left: 0 !important;
+  right: auto !important;
+}
+
+/*# sourceMappingURL=index.css.map*/

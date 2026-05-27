@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "firm-blocks/tabs-wrapper-block",
+  "title": "Tabs Wrapper",
+  "category": "firm-blocks",
+  "icon": "index-card",
+  "textdomain": "firm-blocks",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "openedTab": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "providesContext": {
+    "firm-blocks/openedTab": "openedTab"
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

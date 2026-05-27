@@ -1,0 +1,65 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages-links-block/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+body:has(.wp-block-firm-blocks-pages-links-block) h1 {
+  text-align: center;
+}
+
+.wp-block-firm-blocks-pages-links-block a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.wp-block-firm-blocks-pages-links-block h2,
+.wp-block-firm-blocks-pages-links-block h3,
+.wp-block-firm-blocks-pages-links-block p {
+  text-align: center;
+}
+
+.wp-block-firm-blocks-pages-links-block .page__wrapper {
+  position: relative;
+  width: 100%;
+  color: var(--text-color, #000000);
+}
+
+.wp-block-firm-blocks-pages-links-block .box-item {
+  display: inline-block;
+  padding: 13px;
+  background-color: var(--grey-color, #f8f8f8);
+  border-radius: var(--radius, 20px);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  width: calc(33.3333333333% - 20px);
+  margin-bottom: clamp(1rem, 0.46rem + 2.7vw, 2.5rem);
+  transition: all 0.3s;
+}
+
+.wp-block-firm-blocks-pages-links-block .box-item:hover {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+.wp-block-firm-blocks-pages-links-block .box-item:focus {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+.wp-block-firm-blocks-pages-links-block .box-item__title {
+  text-transform: uppercase;
+  font-size: clamp(1.5rem, 1.41rem + 0.45vw, 1.75rem);
+  font-weight: 600;
+  text-align: center;
+}
+
+.wp-block-firm-blocks-pages-links-block .col-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(1.5rem, -1.19rem + 5.78vw, 3.5rem);
+}
+
+.wp-block-firm-blocks-pages-links-block .col-2 > .box-item {
+  width: calc(50% - 30px) !important;
+  min-width: 320px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,44 @@
+.wp-block-firm-blocks-details-slider-block {
+	h3 {
+		font-size: 24px;
+		font-weight: 900;
+	}
+	.tooltip {
+		position: absolute;
+		display: none;
+	}
+	.item-content__card li::marker {
+		color: var(--dark-grey-color, #a4a4a4);
+	}
+	.item-content__card--title {
+		font-size: 20px;
+	}
+	.details__price {
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+		span {
+			font-size: 18px;
+			font-weight: 400;
+		}
+	}
+	.swiper {
+		padding-bottom: 8px;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.item-content__slider + .item-content__navigation {
+		margin-top: 24px;
+	}
+	.item-content__slide p {
+		font-size: 18px;
+		padding: 4px 12px;
+		line-height: 1.2 !important;
+	}
+
+	.item-content__navigation {
+		position: relative;
+		width: 100%;
+	}
+}

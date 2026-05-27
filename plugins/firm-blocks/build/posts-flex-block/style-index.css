@@ -1,0 +1,15 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/posts-flex-block/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-firm-blocks-posts-flex-block .item-content__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.wp-block-firm-blocks-posts-flex-block .flex-item {
+  width: calc(33.3333333333% - 30px);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

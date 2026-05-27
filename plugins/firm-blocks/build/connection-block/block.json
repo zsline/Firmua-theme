@@ -1,0 +1,24 @@
+{
+  "apiVersion": 3,
+  "name": "firm-blocks/connection-block",
+  "title": "Connection Block",
+  "category": "firm-blocks",
+  "icon": "screenoptions",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "phonesTitle": {
+      "type": "string",
+      "default": "Телефони"
+    },
+    "workTitle": {
+      "type": "string",
+      "default": "Графік роботи офісу"
+    },
+    "chatTitle": {
+      "type": "string",
+      "default": "Чат 24/7"
+    }
+  }
+}

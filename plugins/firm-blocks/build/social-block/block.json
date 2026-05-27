@@ -1,0 +1,22 @@
+{
+  "apiVersion": 3,
+  "name": "firm-blocks/social-block",
+  "title": "Social",
+  "category": "firm-blocks",
+  "icon": "screenoptions",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Заголовок"
+    },
+    "items": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

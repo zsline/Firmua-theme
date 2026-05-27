@@ -1,0 +1,43 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/details-slider-block/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-firm-blocks-details-slider-block h3 {
+  font-size: 24px;
+  font-weight: 900;
+}
+.wp-block-firm-blocks-details-slider-block .tooltip {
+  position: absolute;
+  display: none;
+}
+.wp-block-firm-blocks-details-slider-block .item-content__card li::marker {
+  color: var(--dark-grey-color, #a4a4a4);
+}
+.wp-block-firm-blocks-details-slider-block .item-content__card--title {
+  font-size: 20px;
+}
+.wp-block-firm-blocks-details-slider-block .details__price {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.wp-block-firm-blocks-details-slider-block .details__price span {
+  font-size: 18px;
+  font-weight: 400;
+}
+.wp-block-firm-blocks-details-slider-block .swiper {
+  padding-bottom: 8px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.wp-block-firm-blocks-details-slider-block .item-content__slider + .item-content__navigation {
+  margin-top: 24px;
+}
+.wp-block-firm-blocks-details-slider-block .item-content__slide p {
+  font-size: 18px;
+  padding: 4px 12px;
+  line-height: 1.2 !important;
+}
+.wp-block-firm-blocks-details-slider-block .item-content__navigation {
+  position: relative;
+  width: 100%;
+}

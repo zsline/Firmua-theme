@@ -1,0 +1,15 @@
+{
+  "apiVersion": 3,
+  "name": "firm-blocks/post-card-block",
+  "title": "Post Card Block",
+  "category": "firm-blocks",
+  "icon": "screenoptions",
+  "description": "Card Block for post type Post",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

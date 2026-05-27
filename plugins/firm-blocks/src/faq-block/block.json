@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "firm-blocks/faq-block",
+	"version": "0.1.0",
+	"title": "FAQ Block",
+	"category": "firm-blocks",
+	"icon": "smiley",
+	"description": "Example block FAQ",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"title":{
+			"type": "string"
+		},
+		"faqs" :{
+			"type":"array",
+			"default": []
+		}
+
+	},
+	"textdomain": "firm-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

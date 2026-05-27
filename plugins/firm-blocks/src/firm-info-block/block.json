@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "firm-blocks/firm-info-block",
+	"title": "Firm Ua Info Block",
+	"category": "firm-blocks",
+	"icon": "index-card",
+	"description": "Firm Ua Info Block",
+  "supports": {
+    "html": false
+  },
+	"attributes": {
+    "brandLabel": {
+      "type": "string",
+      "default": "Бренд"
+    },
+
+    "dateLabel": {
+      "type": "string",
+      "default": "Дата створення"
+    },
+
+    "specificLabel": {
+      "type": "string",
+      "default": "Спеціалізація"
+    },
+
+    "activityLabel": {
+      "type": "string",
+      "default": "Територія діяльності"
+    }
+  },
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

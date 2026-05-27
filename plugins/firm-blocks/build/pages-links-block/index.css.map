@@ -1,0 +1,1 @@
+{"version":3,"file":"pages-links-block/index.css","mappings":";;;AAAA;EACC;AACD;AAAC;EACC;AAEF,C","sources":["webpack://firm-blocks/./src/pages-links-block/editor.scss"],"sourcesContent":[".wp-block-firm-blocks-pages-links-block {\r\n\tpadding: 16px;\r\n\t.page__item {\r\n\t\tmargin-bottom: 24px;\r\n\t}\r\n}\r\n"],"names":[],"sourceRoot":""}

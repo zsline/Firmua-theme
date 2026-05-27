@@ -1,0 +1,49 @@
+<!-- wp:template-part {"slug":"header","theme":"firm-ua","tagName":"header","className":"site-header"} /-->
+<section class="page tabs-page single-page">
+  <div class="container">
+    <div class="page__content">
+      <!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
+      <main
+        class="wp-block-group"
+        style="
+          padding-top: var(--wp--preset--spacing--60);
+          padding-bottom: var(--wp--preset--spacing--50);
+        "
+      >
+        <!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
+        <div class="wp-block-group alignfull">
+          <!-- wp:post-title {"level":1} /-->
+
+          <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"flex","justifyContent":"left"}} -->
+          <div class="wp-block-group">
+            <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+            <div class="wp-block-group">
+              <!-- wp:post-author-name {"isLink":true} /-->
+
+              <!-- wp:post-date /-->
+            </div>
+            <!-- /wp:group -->
+
+            <!-- wp:group {"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group">
+              <!-- wp:post-terms {"term":"category","prefix":"Categories: "} /-->
+            </div>
+            <!-- /wp:group -->
+          </div>
+          <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+
+        <!-- wp:firm-blocks/wrapper-full-block -->
+        <div class="wp-block-firm-blocks-wrapper-full-block">
+          <div class="container">
+            <div class="full-content"><!-- wp:post-content /--></div>
+          </div>
+        </div>
+        <!-- /wp:firm-blocks/wrapper-full-block -->
+      </main>
+      <!-- /wp:group -->
+    </div>
+  </div>
+</section>
+<!-- wp:template-part {"slug":"footer","theme":"firm-ua","tagName":"footer","className":"site-footer"} /-->

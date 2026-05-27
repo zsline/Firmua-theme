@@ -1,0 +1,55 @@
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/faq-block/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+.wp-block-firm-blocks-faq-block h3 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.wp-block-firm-blocks-faq-block .faq__item button {
+  outline: none;
+}
+.wp-block-firm-blocks-faq-block .faq__head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  margin-bottom: 12px;
+}
+.wp-block-firm-blocks-faq-block .faq__icon {
+  transition: 0.3s;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.wp-block-firm-blocks-faq-block .faq__icon::before {
+  position: absolute;
+  content: url("data:image/svg+xml,<svg width=\"22\" height=\"24\" viewBox=\"0 0 22 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g filter=\"url%28%23filter0_d_8342_52%29\"><path d=\"M17.5 11.0637C18.1667 11.4486 18.1667 12.4108 17.5 12.7957L5.5 19.7239C4.83333 20.1088 4 19.6277 4 18.8579L4 5.00149C4 4.23169 4.83333 3.75057 5.5 4.13547L17.5 11.0637Z\" fill=\"%23B5B5B5\"/></g><defs><filter id=\"filter0_d_8342_52\" x=\"0\" y=\"0\" width=\"22\" height=\"23.8594\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"><feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/><feColorMatrix in=\"SourceAlpha\" type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0\" result=\"hardAlpha\"/><feOffset/><feGaussianBlur stdDeviation=\"2\"/><feComposite in2=\"hardAlpha\" operator=\"out\"/><feColorMatrix type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0\"/><feBlend mode=\"normal\" in2=\"BackgroundImageFix\" result=\"effect1_dropShadow_8342_52\"/><feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"effect1_dropShadow_8342_52\" result=\"shape\"/></filter></defs></svg>");
+  position: absolute;
+  height: 24px;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wp-block-firm-blocks-faq-block .faq__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  will-change: max-height;
+}
+.wp-block-firm-blocks-faq-block .faq__content {
+  padding-bottom: 16px;
+  padding-right: 50px;
+}
+.wp-block-firm-blocks-faq-block .faq__item.active .faq__body {
+  max-height: 700px;
+}
+.wp-block-firm-blocks-faq-block .faq__item.active .faq__icon {
+  transform: rotate(-90deg) translate(-15%, 20%);
+}

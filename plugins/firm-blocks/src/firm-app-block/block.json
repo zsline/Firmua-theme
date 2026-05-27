@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "firm-blocks/firm-app-block",
+	"title": "App Info Block",
+	"category": "firm-blocks",
+	"icon": "index-card",
+	"description": "Firm Ua Info Block",
+	  "attributes": {
+      "title": {
+        "type": "string",
+        "default": "МОБІЛЬНИЙ ДОДАТОК"
+      }
+    },
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

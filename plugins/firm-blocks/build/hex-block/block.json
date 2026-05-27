@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "firm-blocks/hex-block",
+  "version": "1.0.0",
+  "title": "Hex Block Editor",
+  "category": "firm-blocks",
+  "icon": "screenoptions",
+  "description": "Hex directions block",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "ДОПОМАГАЄМО"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "title": "ПЛАНУВАТИ ВІДКРИТТЯ",
+          "list": [
+            "Готуємо",
+            "Консультуємо",
+            "Радимо"
+          ]
+        },
+        {
+          "title": "СТВОРЮВАТИ БІЗНЕС",
+          "list": [
+            "Реєструємо",
+            "Оформляємо",
+            "Запускаємо"
+          ]
+        },
+        {
+          "title": "ФОРМУЛЮВАТИ МРІЇ",
+          "list": [
+            "Надихаємо",
+            "Орієнтуємо",
+            "Навчаємо"
+          ]
+        },
+        {
+          "title": "ВЕСТИ ДІЯЛЬНІСТЬ",
+          "list": [
+            "Впроваджуємо",
+            "Супроводжуємо",
+            "Забезпечуємо"
+          ]
+        },
+        {
+          "title": "ФІНІШУВАТИ СТРУКТУРИ",
+          "list": [
+            "Оптимізуємо",
+            "Припиняємо",
+            "Ліквідуємо"
+          ]
+        },
+        {
+          "title": "РОЗВИВАТИ НАПРЯМКИ",
+          "list": [
+            "Удосконалюємо",
+            "Модернізуємо",
+            "Налагоджуємо"
+          ]
+        }
+      ]
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css"
+}

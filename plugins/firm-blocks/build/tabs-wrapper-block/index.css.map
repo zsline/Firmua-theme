@@ -1,0 +1,1 @@
+{"version":3,"file":"tabs-wrapper-block/index.css","mappings":";;;AAAA;EACC;EACA;AACD,C","sources":["webpack://firm-blocks/./src/tabs-wrapper-block/editor.scss"],"sourcesContent":[".page__wrapper {\r\n\tborder: 1px solid #ddd;\r\n\tpadding: 20px;\r\n}\r\n"],"names":[],"sourceRoot":""}

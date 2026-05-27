@@ -1,0 +1,54 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/category-sliders-block/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-firm-blocks-category-sliders-block {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.wp-block-firm-blocks-category-sliders-block .swiper {
+  padding-bottom: 8px;
+}
+.wp-block-firm-blocks-category-sliders-block .category__slider {
+  padding: 20px 20px 16px 20px;
+}
+.wp-block-firm-blocks-category-sliders-block .category__section {
+  background: var(--bg-color, #ffffff);
+  border-radius: var(--radius, 20px);
+  width: calc(50% - 15px);
+  height: auto;
+}
+.wp-block-firm-blocks-category-sliders-block .category__section--full {
+  width: 100% !important;
+}
+.wp-block-firm-blocks-category-sliders-block .category__section .category__title {
+  text-align: center;
+  padding: 12px 0;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.0862745098);
+  margin: 0;
+}
+.wp-block-firm-blocks-category-sliders-block .category__section .category__title::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #8a8a8a;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.wp-block-firm-blocks-category-sliders-block .item-content__navigation {
+  padding: 0 20px;
+  margin-bottom: 8px;
+}
+@media (max-width: 640px) {
+  .wp-block-firm-blocks-category-sliders-block .category__section {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

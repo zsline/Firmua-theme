@@ -1,0 +1,25 @@
+.wp-block-firm-blocks-hex-block {
+	.item-directions-block__wrapper {
+		min-height: 610px;
+	}
+	.item-directions-block__img {
+		position: relative;
+		top: 160px !important;
+		left: 120px !important;
+		right: auto !important;
+		height: 200px;
+		width: 200px;
+	}
+	.item-directions-block__hex-wrapper {
+		width: auto;
+		height: fit-content;
+		aspect-ratio: auto !important;
+		background: #ffffff;
+		clip-path: none;
+		padding: 0px;
+		position: relative;
+		top: 0 !important;
+		left: 0 !important;
+		right: auto !important;
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "apiVersion": 3,
+  "name": "firm-blocks/hero-home",
+  "title": "Hero Home",
+  "category": "firm-blocks",
+  "icon": "screenoptions",
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,55 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/header-home-block/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-firm-blocks-header-home-block .header {
+  padding: 28px 0;
+}
+.wp-block-firm-blocks-header-home-block .header__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-transform: uppercase;
+}
+.wp-block-firm-blocks-header-home-block .header__wrapper nav ul {
+  display: flex;
+  justify-content: center;
+}
+.wp-block-firm-blocks-header-home-block .header__wrapper nav ul a {
+  line-height: 1;
+}
+.wp-block-firm-blocks-header-home-block .header__wrapper .header__lang {
+  justify-content: start !important;
+  align-items: center;
+}
+.wp-block-firm-blocks-header-home-block .header__wrapper .header__links ul {
+  justify-content: end;
+}
+.wp-block-firm-blocks-header-home-block .header__mobile-btn {
+  display: none;
+  cursor: pointer;
+}
+.wp-block-firm-blocks-header-home-block .header__lang ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 3px;
+  border-radius: 5px;
+}
+.wp-block-firm-blocks-header-home-block .header__lang ul li::after {
+  right: -8px;
+}
+.wp-block-firm-blocks-header-home-block .header__lang ul li:hover {
+  background-color: var(--grey-color, #f8f8f8);
+}
+@media (max-width: 976px) {
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__nav,
+  .header__links {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

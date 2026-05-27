@@ -1,0 +1,12 @@
+.wp-block-firm-blocks-posts-flex-block {
+	.item-content__flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+	.flex-item {
+		width: calc(100% / 3 - 30px);
+	}
+}

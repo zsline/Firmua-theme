@@ -1,0 +1,27 @@
+{
+  "apiVersion": 3,
+  "name": "firm-blocks/address-block",
+  "title": "Address Block",
+  "category": "firm-blocks",
+  "icon": "screenoptions",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "ЦЕНТРАЛЬНИЙ ОФІС"
+    },
+    "mapAnchor": {
+      "type": "string",
+      "default": "НА МАПУ"
+    },
+    "imageId": {
+      "type": "number"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

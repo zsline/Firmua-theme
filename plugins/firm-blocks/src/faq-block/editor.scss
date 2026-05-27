@@ -1,0 +1,17 @@
+.wp-block-firm-blocks-faq-block {
+	.rich-text {
+		border: 1px solid #00000015;
+	}
+	.faq__body {
+		height: auto;
+		max-height: 700px;
+		overflow: hidden;
+		transition: height 0.3s ease;
+	}
+	.faq__head {
+		cursor: default;
+	}
+	.faq__head span:last-child {
+		min-width: 100px;
+	}
+}

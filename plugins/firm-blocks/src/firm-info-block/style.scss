@@ -1,0 +1,45 @@
+.wp-block-firm-blocks-firm-info-block {
+	.flex {
+		display: flex;
+	}
+	.center {
+		text-align: center;
+		align-items: center;
+	}
+	.item-content__video {
+		display: flex;
+		gap: clamp(1.75rem, 1.16rem + 2.93vw, 3.25rem);
+		align-items: center;
+		margin-bottom: 16px;
+	}
+
+	.item-content__video--iframe {
+		max-width: 348px;
+		height: 100%;
+		border-radius: 20px;
+		overflow: hidden;
+	}
+	.item-content__video--iframe .wp-block-embed,
+	.item-content__video--iframe .wp-block-embed > * {
+		margin: 0;
+		aspect-ratio: 16 / 12;
+		width: 100%;
+		min-width: 300px;
+		height: 100%;
+	}
+
+	.item-content__video--iframe iframe {
+		display: block;
+	}
+
+	.item-content__video--iframe iframe,
+	.item-content__video--iframe iframe > * {
+		aspect-ratio: 16/12;
+		width: 100%;
+		height: 100%;
+	}
+
+	.item-content__video--content > div:not(:last-child) {
+		margin-bottom: 14px;
+	}
+}

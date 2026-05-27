@@ -1,0 +1,1 @@
+{"version":3,"file":"post-slider-block/style-index.css","mappings":";;;AAAA;EACC;AACD;AAAC;EACC;AAEF,C","sources":["webpack://firm-blocks/./src/post-slider-block/style.scss"],"sourcesContent":[".wp-block-firm-blocks-post-slider-block {\r\n\tposition: relative;\r\n\t.swiper {\r\n\t\tpadding-bottom: 8px;\r\n\t}\r\n}\r\n"],"names":[],"sourceRoot":""}

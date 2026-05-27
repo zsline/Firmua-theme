@@ -1,0 +1,29 @@
+{
+  "apiVersion": 3,
+  "name": "firm-blocks/posts-flex-block",
+  "title": "Post Flex Wrapper",
+  "category": "firm-blocks",
+  "attributes": {
+    "postType": {
+      "type": "string",
+      "default": "post"
+    },
+    "categoryId": {
+      "type": "number",
+      "default": 0
+    },
+    "postsPerPage": {
+      "type": "number",
+      "default": 6
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

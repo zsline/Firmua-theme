@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "firm-blocks/tab-item-block",
+	"title": "Tab Item",
+	"category": "firm-blocks",
+	"parent": [
+		"firm-blocks/tabs-wrapper-block"
+	],
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"active": {
+			"type": "boolean",
+			"default": false
+		}
+
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
