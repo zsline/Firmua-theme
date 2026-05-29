@@ -42,5 +42,9 @@ function firm_render_post_card() {
         'templates/post-cards/default.php',
     ];
 
-    locate_template($templates, true, false);
+    $template = locate_template($templates, false, false);
+
+    if ($template) {
+        load_template($template, false);
+    }
 }

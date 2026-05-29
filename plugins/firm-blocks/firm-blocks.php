@@ -43,13 +43,15 @@ function firm_blocks_init() {
 		dirname(plugin_basename(__FILE__)) . '/languages'
 	);
 }
-add_action('init', 'firm_blocks_init');
+add_action('init', function () {
 
-wp_set_script_translations(
-	'firm-blocks-editor',
-	'firm-blocks',
-	plugin_dir_path(__FILE__) . 'languages'
-);
+	wp_set_script_translations(
+		'firm-blocks-editor',
+		'firm-blocks',
+		plugin_dir_path(__FILE__) . 'languages'
+	);
+
+});
 
 add_action('wp_enqueue_scripts', 'firm_ua_blocks_enqueue_scripts');
 function firm_ua_blocks_enqueue_scripts() {
@@ -123,8 +125,20 @@ add_action('rest_api_init', function () {
 		]
 	);
 });
-if (!function_exists('__t')) {
-    function __t($string) {
-        return function_exists('pll__') ? pll__($string) : $string;
-    }
-}
+add_action('wp_enqueue_scripts', function () {
+
+	$blocks = glob(__DIR__ . '/build/*/style-index.css');
+
+	foreach ($blocks as $style_file) {
+
+		$handle = 'firm-blocks-' . basename(dirname($style_file));
+
+		wp_enqueue_style(
+			$handle,
+			plugin_dir_url(__FILE__) . str_replace(__DIR__ . '/', '', $style_file),
+			[],
+			filemtime($style_file)
+		);
+	}
+
+});

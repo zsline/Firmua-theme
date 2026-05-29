@@ -114,12 +114,6 @@ return array(
 		'attributes' => array(
 			'title' => array(
 				'type' => 'string'
-			),
-			'faqs' => array(
-				'type' => 'array',
-				'default' => array(
-					
-				)
 			)
 		),
 		'textdomain' => 'firm-blocks',
@@ -127,6 +121,32 @@ return array(
 		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',
 		'viewScript' => 'file:./view.js'
+	),
+	'faq-item-block' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'firm-blocks/faq-item-block',
+		'version' => '0.1.0',
+		'title' => 'FAQ Item',
+		'category' => 'firm-blocks',
+		'icon' => 'smiley',
+		'description' => 'FAQ item block',
+		'parent' => array(
+			'firm-blocks/faq-block'
+		),
+		'supports' => array(
+			'html' => false,
+			'reusable' => false
+		),
+		'attributes' => array(
+			'title' => array(
+				'type' => 'string'
+			)
+		),
+		'textdomain' => 'firm-blocks',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css'
 	),
 	'firm-app-block' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',

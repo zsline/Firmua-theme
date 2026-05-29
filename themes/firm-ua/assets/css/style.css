@@ -1548,11 +1548,14 @@ li[data-phone=vodafone]::before {
 }
 .post-card .post-card__image{
   width: 100%;
+  height: 110px;
+  border-top-left-radius: var(--radius, 20px);
+  border-top-right-radius: var(--radius, 20px);
+  overflow: hidden;
+  background-color:  #a4a4a450;
 }
 .post-card .post-card__image img{
   width: 100%;
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
   display: block;
   object-fit: cover;
 }

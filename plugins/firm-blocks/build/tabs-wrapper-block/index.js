@@ -41,7 +41,7 @@ function Edit({
   } = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_4__.useDispatch)('core/block-editor');
   const addTabs = () => {
     if (attributes.tabs?.length) return;
-    const titles = ['Переваги', 'Варианти', 'Порядок дій', 'Деталі', 'Роз\'яснення', 'Комплекс', 'Акції'];
+    const titles = ['Переваги', 'Варіанти', 'Порядок дій', 'Деталі', 'Роз\'яснення', 'Комплекс', 'Акції'];
     const tabs = titles.map((title, index) => ({
       title,
       active: index === 0

@@ -14,12 +14,7 @@
 	"attributes": {
 		"title":{
 			"type": "string"
-		},
-		"faqs" :{
-			"type":"array",
-			"default": []
 		}
-
 	},
 	"textdomain": "firm-blocks",
 	"editorScript": "file:./index.js",

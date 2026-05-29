@@ -256,10 +256,14 @@ function work_timer($atts = []) {
 
 add_shortcode('firm_work_timer', 'work_timer');
 
-wp_enqueue_script(
-    'firm-ua-timer',
-    FIRM_BLOCKS_URL . 'assets/js/particles/timer.js',
-    [],
-    null,
-    true
-);
+add_action('wp_enqueue_scripts', function () {
+
+	wp_enqueue_script(
+		'firm-ua-timer',
+		FIRM_BLOCKS_URL . 'assets/js/particles/timer.js',
+		[],
+		null,
+		true
+	);
+
+});

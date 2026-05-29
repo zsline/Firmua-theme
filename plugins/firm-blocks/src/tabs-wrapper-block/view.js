@@ -1,44 +1,40 @@
 document.addEventListener('DOMContentLoaded', () => {
-
     const wrapper = document.querySelector('.page__wrapper');
     const tabs = document.querySelectorAll(
         '.wp-block-firm-blocks-tabs-wrapper-block .page__item'
     );
-
-    const updateWrapperHeight = (content) => {
-        wrapper.style.height = content.offsetHeight + 'px';
-    };
-
-    tabs.forEach(tab => {
-
-        if (window.innerWidth < 746) {
-            tab.classList.remove('active');
+    const isMobile = () => window.innerWidth < 746;
+    const setHeight = (content) => {
+        if (!wrapper || !content) return;
+        if (isMobile()) {
+            wrapper.style.height = 'auto';
+        } else {
+            wrapper.style.height = content.offsetHeight + 'px';
         }
-
+    };
+    const closeAll = () => {
+        tabs.forEach(t => t.classList.remove('active'));
+    };
+    tabs.forEach(tab => {
         tab.addEventListener('click', (e) => {
-
-            if (!e.target.classList.contains('page__item--tab')) return;
-
+            if (!e.target.closest('.page__item--tab')) return;
             const content = tab.querySelector('.page__item--content');
-
-            tabs.forEach(el => {
-                el.classList.remove('active');
-            });
-
+            if (isMobile()) {
+                const isActive = tab.classList.contains('active');
+                closeAll();
+                if (!isActive) {
+                    tab.classList.add('active');
+                }
+                setHeight(content);
+                return;
+            }
+            tabs.forEach(t => t.classList.remove('active'));
             tab.classList.add('active');
-
-            updateWrapperHeight(content);
-
+            setHeight(content);
         });
-
     });
-
-    // стартовая высота
-    const activeTab = document.querySelector('.page__item.active');
-
-    if (activeTab) {
-        const activeContent = activeTab.querySelector('.page__item--content');
-        updateWrapperHeight(activeContent);
+    const active = document.querySelector('.page__item.active');
+    if (active) {
+        setHeight(active.querySelector('.page__item--content'));
     }
-
 });

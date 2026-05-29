@@ -21,7 +21,7 @@ export default function Edit({ clientId, attributes, setAttributes }) {
 
 	const titles = [
 		'Переваги',
-		'Варианти',
+		'Варіанти',
 		'Порядок дій',
 		'Деталі',
 		'Роз\'яснення',

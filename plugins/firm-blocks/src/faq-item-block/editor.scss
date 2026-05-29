@@ -1,0 +1,30 @@
+.wp-block-firm-blocks-faq-item-block {
+	.faq__item {
+		border: 1px solid #ddd;
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.faq__head {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		padding: 20px;
+		background: #f7f7f7;
+		border: 0;
+		cursor: pointer;
+	}
+	.faq__question {
+		font-weight: 600;
+		font-size: 18px;
+	}
+
+	.faq__body {
+		padding: 20px;
+	}
+
+	.faq__content {
+		display: flex;
+	}
+}

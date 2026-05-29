@@ -6,7 +6,18 @@ $posts_per_page = isset($attributes['postsPerPage'])
     : 6;
 $category_id    = $attributes['categoryId'] ?? 0;
 
-$related_posts = get_field('services-post-attached');
+
+
+$related_posts = '';
+
+if($post_type == 'post'){
+    $related_posts = get_field('services-post-attached');
+} elseif($post_type == 'services') {
+    $related_posts = get_field('services-post-related');
+} else {
+    $related_posts = '';
+}
+
 
 /**
  * Base query

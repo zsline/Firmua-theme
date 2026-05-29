@@ -14,10 +14,6 @@
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "faqs": {
-      "type": "array",
-      "default": []
     }
   },
   "textdomain": "firm-blocks",
