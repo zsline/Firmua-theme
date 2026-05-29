@@ -10,15 +10,16 @@ export default function save({ attributes }) {
 	return (
 		<div {...useBlockProps.save()}>
 			<div className="faq__item">
-				<button type="button" className="faq__head">
+				<div className="faq__head">
 					<span className="faq__icon"></span>
 
 					<RichText.Content
-						tagName="span"
+						tagName="div"
 						className="faq__question"
 						value={title}
+						placeholder="Question..."
 					/>
-				</button>
+				</div>
 
 				<div className="faq__body">
 					<div className="faq__content">

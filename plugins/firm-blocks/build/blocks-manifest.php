@@ -576,6 +576,20 @@ return array(
 		'viewScript' => 'file:./view.js',
 		'render' => 'file:./render.php'
 	),
+	'services-variants-block' => array(
+		'apiVersion' => 3,
+		'name' => 'firm-blocks/services-variants-block',
+		'title' => 'Services Variants',
+		'category' => 'firm-blocks',
+		'description' => 'Слайдер с вариантами услуг',
+		'supports' => array(
+			'html' => false
+		),
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php',
+		'viewScript' => 'file:./view.js'
+	),
 	'social-block' => array(
 		'apiVersion' => 3,
 		'name' => 'firm-blocks/social-block',
